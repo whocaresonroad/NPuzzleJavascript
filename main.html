@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="main.css">
+<title>N-Puzzle</title>
+</head>
+<body>
+
+<div>
+
+<script src="./npuzzle.js" ></script>
+
+<table id="board">
+</table>
+
+
+<select id="boardSizeSelection" onchange="BoardSizeSelection()">
+  <option>3 * 3</option>
+  <option>4 * 4</option>
+  <option>5 * 5</option>
+</select>
+
+<br><br>
+
+<button id="reset">Reset</button>
+<button id="shuffle" >Shuffle</button>
+<button id="solve">Solve</button>
+<button id="slower">Slower</button>
+<button id="faster">Faster</button>
+<br><br>
+<button id="solution">Animate solution</button>
+<br><br>
+<p id="counter"></p>
+<p id="distance"></p>
+</div>
+
+</body>
+</html>
